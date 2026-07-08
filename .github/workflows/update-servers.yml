@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4  # 首先检出代码
+    - uses: actions/checkout@v2  # 首先检出代码
       
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v2
       with:
         python-version: '3.x'
         
